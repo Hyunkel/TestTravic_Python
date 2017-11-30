@@ -14,7 +14,6 @@ class UnittestSuper(unittest.TestCase, demo.DemoTestPython):
 class TestNow(UnittestSuper):
 
     def runTest(self):
-        self.return_number_x5(5)
         self.check_type_data("4")
 
 
