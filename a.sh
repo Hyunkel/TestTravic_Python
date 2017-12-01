@@ -1,2 +1,3 @@
-#!/bin/sh
-python test.py
+#!/bin/sh -e
+echo hi
+echo world
