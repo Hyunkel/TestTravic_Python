@@ -1,8 +1,8 @@
 import demo
 import unittest
 import sys
-
 sys.stdout.flush()
+
 
 class UnittestSuper(unittest.TestCase, demo.DemoTestPython):
 
